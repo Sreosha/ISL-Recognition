@@ -1,7 +1,7 @@
 # INDIAN SIGN LANGUAGE RECOGNITION
 This project recognizes the signs between 0-9 in Indian Sign Language (ISL). The main goal of this project is to help the deaf and hard hearing people.In order to use the code you may download the zip or clone the link.
 # DESCRIPTION
-First I have collected my own data for this project. I have used Google Mediapipe for Hands in order to collect the data features (21 3D keypoints of a palm). Second, I have calculated the distances between the keypoints of a hand pose (for example, distance between index tip to index dip) using Eucledian distance which considered as the features for a pose and labeled the sign. Then these features, along with their labels are saved in the csv file. 
+First I have collected my own data for this project. I have used Google Mediapipe for Hands in order to collect the data features (21 3D keypoints of a palm). Second, I have calculated the distances between the keypoints of a hand pose (for example, distance between index tip to index dip) using Eucledean distance which considered as the features for a pose and labeled the sign. Then these features, along with their labels are saved in the csv file. 
 
 This is how my csv dataset looks like for pose 0
 ![image](https://user-images.githubusercontent.com/63660066/135231301-63993e41-ab3b-49e0-89dd-26e53c755c39.png)
